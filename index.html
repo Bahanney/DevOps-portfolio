@@ -124,6 +124,10 @@
 
     <h2>Projects</h2>
     <ul>
+      <li><strong>Jenkins Agent Auto-Provisioning + MySQL-backed Python Script</strong>Implemented a CI/CD workflow that auto-provisions Jenkins agents on EC2 for deployment jobs and deploys a Python script to log system stats into a MySQL database. Used Ansible roles to install dependencies, configure MySQL, and schedule the script via cron/systemd. The Python script and configs were archived and stored in a private S3 bucket or Artifactory, with logs updating every 5 minutes.</li>
+      <li><strong>Build, Release, and Deploy</strong>Built the latest branch of a Java web application, deployed two versions of a calculator on a deployment server, and stored the generated binary artifacts in a Nexus Artifactory repository. Verified successful build, release, and deployment through server terminals and Nexus web UI, showcasing version control and release management in action.</li>
+      <li><strong>SonarQube Setup and Code Analysis</strong>Configured a SonarQube server to perform static code analysis on a Java project. Uploaded vulnerable code to the platform, ran automated scans to detect bugs, code smells, and security issues, and documented the setup and analysis results through the web UI.</li>
+      <li><strong>GitHub Collaboration</strong>Worked on a team-based GitHub project to implement collaborative workflows using Git best practices. We created protected branches, used pull requests for code reviews, and followed a structured branching strategy to manage contributions and merge changes efficiently.</li>
       <li><strong>CI/CD Pipeline:</strong> Automated Dockerized app deployments using Jenkins and GitHub Webhooks</li>
       <li><strong>K8s Deployment:</strong> Hosted scalable web apps on Kubernetes with Helm</li>
       <li><strong>Infra as Code:</strong> Created reusable Terraform modules for cloud environments</li>
